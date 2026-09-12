@@ -1,0 +1,19 @@
+# environment / secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# generated data & trained models (rebuilt by build_database.py / run.py)
+data/*.db
+models/*.pkl
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
