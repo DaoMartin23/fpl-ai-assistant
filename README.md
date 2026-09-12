@@ -16,6 +16,10 @@ Originally developed and tested during the 2024/25 Premier League season. The re
 - Trains four separate Random Forest Regressor models (goalkeepers, defenders, midfielders, attackers) to predict next-gameweek fantasy points, and writes predictions back into the database.
 - A Streamlit chatbot that answers FPL questions either via a LangChain SQL agent (for questions about the data) or directly via the LLM (for general questions).
 
+## Demo
+
+![FPL AI Assistant](screenshots/FPLphoto.png)
+
 ## Technologies
 
 - Python
